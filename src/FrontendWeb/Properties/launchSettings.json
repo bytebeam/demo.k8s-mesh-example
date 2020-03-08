@@ -1,0 +1,21 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "http://localhost:52055",
+      "sslPort": 44390
+    }
+  },
+  "profiles": {
+    "FrontendWeb": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "JAEGER_SERVICE_NAME": "Mesh.FrontEndWeb",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
